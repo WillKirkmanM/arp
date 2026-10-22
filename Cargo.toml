@@ -1,0 +1,9 @@
+[package]
+name = "arp"
+version = "0.1.0"
+edition = "2024"
+description = "The ARP Command Compares Saved Windows Neighbour Tables and Flags Conflicting IPv4-to-MAC Mappings Within Each Interface"
+keywords = ["parsonlabs", "rust", "cli", "windows", "arp"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
